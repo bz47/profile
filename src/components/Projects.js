@@ -82,14 +82,14 @@ function Projects() {
           <div className={styles.cards}>
             <div className={styles.img5}></div>
             <div className={styles.holder}>
-              <h3 className={styles.title}>Netlify App</h3>
-              <p className={styles.desc}> This is an app for netlify</p>
+              <h3 className={styles.title}>Color Generator</h3>
+              <p className={styles.desc}> JS function practice.</p>
               <a
-                href="https://github.com/bz47/netlifypracticeapp"
+                href="https://github.com/bz47/color-generator.git"
                 target="_blank"
                 rel="noreferrer"
               >
-                Netlify App
+                Color Generator App
               </a>
             </div>
           </div>

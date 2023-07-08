@@ -42,11 +42,60 @@
   background-color: black;
 }
 
-.img {
+.desc {
+  width: 100%;
+  text-align: center;
+  border: solid orange 2px;
+}
+
+.img1 {
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
   display: flex;
   width: 40%;
   height: 100%;
-  border: solid orange 2px;
+}
+
+.img2 {
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Calc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+
+.img3 {
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+
+.img4 {
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+
+.img5 {
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  width: 40%;
+  height: 100%;
 }
 
 .desc {
@@ -63,7 +112,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 1.5%;
-  color: black;
+  color: white;
 }
 
 button {

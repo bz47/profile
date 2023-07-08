@@ -17,13 +17,10 @@ function Projects() {
         <h1>Projects</h1>
         <div className={styles.projects}>
           <div className={styles.cards}>
-            <div className={styles.img}>
-              <img src="/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png" />
-            </div>
+            <div className={styles.img1}></div>
             <div className={styles.holder}>
               <h3 className={styles.title}>Whatsapp CopyCat</h3>
               <p className={styles.desc}>
-                {" "}
                 An attempt at recreating the Whatsapp website
               </p>
               <a
@@ -36,7 +33,23 @@ function Projects() {
             </div>
           </div>
           <div className={styles.cards}>
-            <div className={styles.img}></div>
+            <div className={styles.img2}></div>
+            <div className={styles.holder}>
+              <h3 className={styles.title}>JS Calculator</h3>
+              <p className={styles.desc}>
+                Project to practice connecting JS to HTML
+              </p>
+              <a
+                href="https://github.com/bz47/netlifypracticeapp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Netlify App
+              </a>
+            </div>
+          </div>
+          <div className={styles.cards}>
+            <div className={styles.img3}></div>
             <div className={styles.holder}>
               <h3 className={styles.title}>Netlify App</h3>
               <p className={styles.desc}> This is an app for netlify</p>
@@ -50,7 +63,7 @@ function Projects() {
             </div>
           </div>
           <div className={styles.cards}>
-            <div className={styles.img}></div>
+            <div className={styles.img4}></div>
             <div className={styles.holder}>
               <h3 className={styles.title}>Netlify App</h3>
               <p className={styles.desc}> This is an app for netlify</p>
@@ -64,21 +77,7 @@ function Projects() {
             </div>
           </div>
           <div className={styles.cards}>
-            <div className={styles.img}></div>
-            <div className={styles.holder}>
-              <h3 className={styles.title}>Netlify App</h3>
-              <p className={styles.desc}> This is an app for netlify</p>
-              <a
-                href="https://github.com/bz47/netlifypracticeapp"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Netlify App
-              </a>
-            </div>
-          </div>
-          <div className={styles.cards}>
-            <div className={styles.img}></div>
+            <div className={styles.img5}></div>
             <div className={styles.holder}>
               <h3 className={styles.title}>Netlify App</h3>
               <p className={styles.desc}> This is an app for netlify</p>

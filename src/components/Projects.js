@@ -84,7 +84,7 @@ function Projects() {
               <h3 className={styles.title}>Color Generator</h3>
               <p className={styles.desc}> JS function practice.</p>
               <a
-                href="https://github.com/bz47/color-generator.git"
+                href="https://bz-colorz.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >

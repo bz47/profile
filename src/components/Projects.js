@@ -67,7 +67,6 @@ function Projects() {
             <div className={styles.holder}>
               <h3 className={styles.title}>Weather App</h3>
               <p className={styles.desc}>
-                {" "}
                 Practice w GET request and JSON data
               </p>
               <a

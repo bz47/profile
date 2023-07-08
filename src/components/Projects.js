@@ -22,7 +22,10 @@ function Projects() {
             </div>
             <div className={styles.holder}>
               <h3 className={styles.title}>Whatsapp CopyCat</h3>
-              <p className={styles.desc}> This is an app for netlify</p>
+              <p className={styles.desc}>
+                {" "}
+                An attempt at recreating the Whatsapp website
+              </p>
               <a
                 href="https://whatsappcopycat.netlify.app/"
                 target="_blank"

@@ -28,7 +28,7 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Netlify App
+                Whatsapp App
               </a>
             </div>
           </div>
@@ -40,39 +40,42 @@ function Projects() {
                 Project to practice connecting JS to HTML
               </p>
               <a
-                href="https://github.com/bz47/netlifypracticeapp"
+                href="https://bz-js-calculator.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Netlify App
+                JS Calculator App
               </a>
             </div>
           </div>
           <div className={styles.cards}>
             <div className={styles.img3}></div>
             <div className={styles.holder}>
-              <h3 className={styles.title}>Netlify App</h3>
-              <p className={styles.desc}> This is an app for netlify</p>
+              <h3 className={styles.title}>Piano Copycat</h3>
+              <p className={styles.desc}> Remake of a piano on CodeCademy</p>
               <a
-                href="https://github.com/bz47/netlifypracticeapp"
+                href="https://bz-piano-copycat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Netlify App
+                Piano
               </a>
             </div>
           </div>
           <div className={styles.cards}>
             <div className={styles.img4}></div>
             <div className={styles.holder}>
-              <h3 className={styles.title}>Netlify App</h3>
-              <p className={styles.desc}> This is an app for netlify</p>
+              <h3 className={styles.title}>Weather App</h3>
+              <p className={styles.desc}>
+                {" "}
+                Practice w GET request and JSON data
+              </p>
               <a
-                href="https://github.com/bz47/netlifypracticeapp"
+                href="https://bz-weather.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Netlify App
+                Weather App
               </a>
             </div>
           </div>

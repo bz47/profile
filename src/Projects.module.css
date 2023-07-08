@@ -34,18 +34,18 @@
   border: solid black 2px;
 }
 
-.cards:hover {
-  z-index: 50;
-  height: 65%;
-  width: 82%;
-  position: absolute;
-  background-color: black;
-}
-
 .desc {
   width: 100%;
   text-align: center;
-  border: solid orange 2px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: 700;
+  font-size: larger;
 }
 
 .img1 {
@@ -69,7 +69,7 @@
 }
 
 .img3 {
-  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/piano.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 90%;
@@ -79,7 +79,7 @@
 }
 
 .img4 {
-  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/Screenshot.png");
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/weather.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 90%;

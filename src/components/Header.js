@@ -21,7 +21,7 @@ function Header() {
       <ul className={styles.side2}>
         <li className={styles.buttons}>
           <NavLink exact to="../Projects">
-            Project
+            Projects
           </NavLink>
         </li>
         <li className={styles.buttons}>

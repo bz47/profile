@@ -1,0 +1,77 @@
+.background {
+  height: 55rem;
+  background: linear-gradient(
+    120deg,
+    rgb(67, 106, 124),
+    rgb(26, 39, 52),
+    rgb(67, 106, 124)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll;
+  height: 40rem;
+  width: 90%;
+  border: solid rgba(192, 192, 192, 0.49) 2px;
+  margin-bottom: 2%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 16rem;
+  margin: 2%;
+  border: solid black 2px;
+}
+
+.cards:hover {
+  z-index: 50;
+  height: 65%;
+  width: 82%;
+  position: absolute;
+  background-color: black;
+}
+
+.img {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  border: solid orange 2px;
+}
+
+.desc {
+  margin-bottom: 10%;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5%;
+  color: black;
+}
+
+button {
+  width: 6%;
+  height: 30px;
+  background-color: silver;
+}
+
+button:hover {
+  cursor: pointer;
+}

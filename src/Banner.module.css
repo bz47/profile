@@ -1,0 +1,50 @@
+.background {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: inherit;
+  color: black;
+  height: 40%;
+  width: 90%;
+}
+
+.me {
+  background: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/profile/public/trees.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  position: relative;
+  right: 4%;
+  margin-left: 5%;
+  padding: 0%;
+  width: 59%;
+  height: 99%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  position: relative;
+  bottom: 4%;
+  padding: 0% 2% 1% 3%;
+  width: 55%;
+  height: 100%;
+}
+
+.hello {
+  text-align: left;
+  font-size: 3rem;
+  color: silver;
+}
+
+.intro {
+  margin-top: -2.3%;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: silver;
+}

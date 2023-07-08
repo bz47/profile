@@ -1,0 +1,16 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+    120deg,
+    rgb(67, 106, 124),
+    rgb(26, 39, 52),
+    rgb(67, 106, 124)
+  );
+  height: 56rem;
+  width: 100%;
+  margin-top: 2rem;
+  font-weight: 700;
+}

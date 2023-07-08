@@ -1,0 +1,86 @@
+h1 {
+  color: white;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  background: linear-gradient(to right rgb(26, 39, 52), rgb(67, 106, 124));
+  border-bottom: solid 1px grey;
+  margin-bottom: 2%;
+}
+
+li,
+li:active,
+li:visited,
+a,
+a:active,
+a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.side1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3%;
+  color: rgb(218, 211, 211);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+}
+
+.side1 p {
+  margin-right: 2%;
+}
+
+.material-symbols-outlined {
+  font-weight: 600;
+}
+
+.side2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
+  color: white;
+}
+
+.buttons {
+  margin-left: 2%;
+  color: white;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.buttons::after {
+  content: " ";
+  height: 2px;
+  width: 5%;
+  display: block;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  top: 3px;
+}
+
+.buttons:hover::after {
+  background-color: white;
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  top: 3px;
+}

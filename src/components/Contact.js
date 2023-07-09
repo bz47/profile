@@ -16,7 +16,7 @@ function Contact() {
         <h1>Contact</h1>
         <div className={styles.info}>
           <h2>Email Address: bezsworldtour@gmail.com </h2>
-          <h2>GitHub: github.com/bz74</h2>
+          <h2>GitHub: github.com/bz47</h2>
         </div>
         <button onClick={() => home()}>Home</button>
       </div>

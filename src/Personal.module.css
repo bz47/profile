@@ -7,8 +7,9 @@
   padding-bottom: 5%;
 }
 
-h1 {
+.personal {
   text-align: center;
+  font-size: 3rem;
 }
 
 button {
@@ -31,10 +32,29 @@ button:hover {
 .cards {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: 90%;
   width: 30%;
+  min-width: none;
   border: solid rgba(192, 192, 192, 0.49) 2px;
+}
+
+.adjust {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 2;
+  width: 100%;
+}
+
+.theme {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.li {
+  font-size: 1.3rem;
+  margin-bottom: 15%;
+  list-style: circle;
 }
 
 .list {

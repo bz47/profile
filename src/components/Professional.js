@@ -29,7 +29,7 @@ function Professional() {
           up for the course, I've spent about 20-25 hrs per week coding and
           completed about 20 personal projects.
           {<br></br>}
-          {<br></br>}Having recently completed my Frontend Development course I
+          {<br></br>}Having recently completed my Frontend Development course, I
           now hope to take my frontend skills to the next level by getting a
           job, starting an internship or doing some freelance work.
         </p>

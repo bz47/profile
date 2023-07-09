@@ -24,6 +24,7 @@ function Projects() {
                 An attempt at recreating the Whatsapp website
               </p>
               <a
+                className={styles.anchor}
                 href="https://whatsappcopycat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -40,6 +41,7 @@ function Projects() {
                 Project to practice connecting JS to HTML
               </p>
               <a
+                className={styles.anchor}
                 href="https://bz-js-calculator.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -54,6 +56,7 @@ function Projects() {
               <h3 className={styles.title}>Piano Copycat</h3>
               <p className={styles.desc}> Remake of a piano on CodeCademy</p>
               <a
+                className={styles.anchor}
                 href="https://bz-piano-copycat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -70,6 +73,7 @@ function Projects() {
                 Practice w GET request and JSON data
               </p>
               <a
+                className={styles.anchor}
                 href="https://bz-weather.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -84,6 +88,7 @@ function Projects() {
               <h3 className={styles.title}>Color Generator</h3>
               <p className={styles.desc}> JS function practice.</p>
               <a
+                className={styles.anchor}
                 href="https://bz-colorz.netlify.app/"
                 target="_blank"
                 rel="noreferrer"

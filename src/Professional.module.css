@@ -4,8 +4,10 @@
   align-items: center;
   background-color: inherit;
   color: black;
-  height: 40%;
   width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid orange 2px;
 }
 
 .text {
@@ -14,7 +16,6 @@
   align-items: flex-start;
   width: 55%;
   min-width: none;
-  height: 95%;
   padding: 0% 2%;
   position: relative;
   bottom: 14%;
@@ -28,7 +29,6 @@
   justify-content: space-around;
   align-items: center;
   width: 35%;
-  height: 95%;
   overflow: scroll;
 }
 
@@ -39,7 +39,7 @@
   width: fit-content;
   margin: 1%;
   padding: 5%;
-  height: 40px;
+  height: 2.5rem;
   border: solid black 2px;
 }
 

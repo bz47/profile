@@ -17,23 +17,6 @@ function Projects() {
         <h1>Projects</h1>
         <div className={styles.projects}>
           <div className={styles.cards}>
-            <div className={styles.img1}></div>
-            <div className={styles.holder}>
-              <h3 className={styles.title}>Whatsapp CopyCat</h3>
-              <p className={styles.desc}>
-                An attempt at recreating the Whatsapp website
-              </p>
-              <a
-                className={styles.anchor}
-                href="https://whatsappcopycat.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Whatsapp App
-              </a>
-            </div>
-          </div>
-          <div className={styles.cards}>
             <div className={styles.img2}></div>
             <div className={styles.holder}>
               <h3 className={styles.title}>JS Calculator</h3>
@@ -50,38 +33,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className={styles.cards}>
-            <div className={styles.img3}></div>
-            <div className={styles.holder}>
-              <h3 className={styles.title}>Piano Copycat</h3>
-              <p className={styles.desc}> Remake of a piano on CodeCademy</p>
-              <a
-                className={styles.anchor}
-                href="https://bz-piano-copycat.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Piano
-              </a>
-            </div>
-          </div>
-          <div className={styles.cards}>
-            <div className={styles.img4}></div>
-            <div className={styles.holder}>
-              <h3 className={styles.title}>Weather App</h3>
-              <p className={styles.desc}>
-                Practice w GET request and JSON data
-              </p>
-              <a
-                className={styles.anchor}
-                href="https://bz-weather.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Weather App
-              </a>
-            </div>
-          </div>
+
           <div className={styles.cards}>
             <div className={styles.img5}></div>
             <div className={styles.holder}>

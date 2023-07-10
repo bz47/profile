@@ -6,10 +6,9 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
   background: linear-gradient(to right rgb(26, 39, 52), rgb(67, 106, 124));
   border-bottom: solid 1px grey;
-  margin-bottom: 2%;
+  z-index: 500;
 }
 
 li,
@@ -25,7 +24,6 @@ a:visited {
 
 .side1 {
   width: 50%;
-  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -47,7 +45,6 @@ a:visited {
 
 .side2 {
   width: 50%;
-  height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;

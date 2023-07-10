@@ -43,7 +43,7 @@ function Personal() {
           <div className={styles.cards}>
             <div className={styles.adjust}>
               <h1 className={styles.theme}>Hobbies</h1>
-            </div>{" "}
+            </div>
             <ul>
               <li className={styles.li}>Coding</li>
               <li className={styles.li}>Playing Guitar</li>

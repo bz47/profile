@@ -50,6 +50,7 @@ function Projects() {
             </div>
           </div>
         </div>
+
         <button onClick={() => home()}>Home</button>
       </div>
     </>
